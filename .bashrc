@@ -114,3 +114,6 @@ function bash_prompt(){
 bash_prompt
 
 alias cd..='cd ..'
+
+export TERM="xterm-256color"
+
