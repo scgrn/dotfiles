@@ -115,6 +115,9 @@ bash_prompt
 
 alias cd..='cd ..'
 
+# prevent executing commands pasted with newline char
+bind 'set enable-bracketed-paste on'
+
 export TERM="xterm-256color"
 
 
