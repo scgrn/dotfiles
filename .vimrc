@@ -23,8 +23,6 @@ colorscheme simple-dark
 set list
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
-" autocmd VimEnter * below terminal
-
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
