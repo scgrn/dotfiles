@@ -127,3 +127,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PLAYDATE_SDK_PATH=/opt/PlaydateSDK-2.1.1
 
+# prevent executing commands pasted with newline char
+bind 'set enable-bracketed-paste on'
+
