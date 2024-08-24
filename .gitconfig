@@ -6,5 +6,5 @@
 	defaultBranch = main
 	
 [alias]
-    logs = log --pretty='commit %C(green)[%h]%Creset Date: %cD  %C(cyan)%s'
+    logs = log --pretty='commit %C(green)[%h]%d%Creset Date: %cD  %C(cyan)%s'
 
