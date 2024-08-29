@@ -94,6 +94,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Disable my optical drive's faulty eject button
+eject -i 1 /dev/cdrom
+
 # Display the current Git branch in the Bash prompt.
 function git_branch() {
     if [ -d .git ] ; then
