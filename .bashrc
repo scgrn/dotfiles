@@ -133,3 +133,10 @@ export PLAYDATE_SDK_PATH=/opt/PlaydateSDK-2.1.1
 # prevent executing commands pasted with newline char
 bind 'set enable-bracketed-paste on'
 
+# rice
+if [[ "$DESKTOP_SESSION" == "xfce" ]]; then
+    neofetch --ascii_distro xubuntu
+else
+    neofetch
+fi
+
