@@ -117,6 +117,8 @@ function bash_prompt(){
 bash_prompt
 
 alias cd..='cd ..'
+alias later='sudo systemctl suspend'
+alias suspend='sudo systemctl suspend'
 
 # prevent executing commands pasted with newline char
 bind 'set enable-bracketed-paste on'
@@ -133,3 +135,4 @@ export PLAYDATE_SDK_PATH=/opt/PlaydateSDK-2.1.1
 # prevent executing commands pasted with newline char
 bind 'set enable-bracketed-paste on'
 
+. "$HOME/.cargo/env"
