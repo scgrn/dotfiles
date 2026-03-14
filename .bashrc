@@ -124,7 +124,7 @@ alias suspend='sudo systemctl suspend'
 bind 'set enable-bracketed-paste on'
 
 export TERM="xterm-256color"
-
+export PAGER=most
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
