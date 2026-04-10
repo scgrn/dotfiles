@@ -136,3 +136,6 @@ export PLAYDATE_SDK_PATH=/opt/PlaydateSDK-2.1.1
 bind 'set enable-bracketed-paste on'
 
 . "$HOME/.cargo/env"
+
+# opencode
+export PATH=/home/scgrn/.opencode/bin:$PATH
